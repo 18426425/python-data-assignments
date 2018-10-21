@@ -15,7 +15,7 @@ Month	Instalment	Interest	Principal	Outstanding
 	interest= r * outstanding
 	principal=A-r*outstanding
 	outstanding = outstanding-principal
-	print('t\'.join(('{:03}'.format(i),'{0:.2f}'.format(A), '{0:.2f}'.format(interest),'{0:.2f}'.format(principal),'{0:.2f}'.format(outstanding))))
+	print('t\'.join(('{:03f}'.format(i),'{0:.2f}'.format(A), '{0:.2f}'.format(interest),'{0:.2f}'.format(principal),'{0:.2f}'.format(outstanding))))
 	      
 SyntaxError: invalid syntax
 >>> print('t\'.join(('{:03f}'.format(i),'{0:.2f}'.format(A), '{0:.2f}'.format(interest),'{0:.2f}'.format(principal),'{0:.2f}'.format(outstanding))))
