@@ -11,7 +11,7 @@ This dataset is a list of Top250 books selected by Douban Reading whose starting
 5.'summary' - string.e.g.'为你，千千万万遍'
 
 #Data Volume:
-2000 rows 5 columns
+2000 rows
 
 #License:
 CC 4.0
